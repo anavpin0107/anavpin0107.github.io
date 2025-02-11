@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">FRONTED Y BACKEND</a>
+    <a href="html.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">HTML</a>
+    <a href="css.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">CSS</a>
+    <a href="javascript.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">JAVASCRIPT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">FRONTEND Y BACKEND</h1>
+  <p class="w3-xlarge">Hecho por: Alicia Navarro Pino</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>fronted</h1>
+      <h5 class="w3-padding-32">El front end es aquello que ven los usuarios e incluye elementos visuales, como botones, casillas de verificación, gráficos y mensajes de texto. Permite a los usuarios interactuar con la aplicación. El back-end son los datos y la infraestructura que permiten que la aplicación funcione.</h5>
+
+      <p class="w3-text-grey">una aplicación front-end, comúnmente conocida como la interfaz de una aplicación, es la capa o elemento que el usuario tiene la capacidad de usar, ver e interactuar a través de botones, imágenes, elementos interactivos, menús de navegación y texto.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="data:image/jpeg;base64,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">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    
+
+    <div class="w3-twothird">
+      <h1>BACKEND</h1>
+      <h5 class="w3-padding-32">backend es la parte del desarrollo web que se encarga de que toda la lógica de una página web funcione. Se trata del conjunto de acciones que pasan en una web pero que no vemos como, por ejemplo, la comunicación con el servidor.</h5>
+
+
+      <p class="w3-text-grey">A veces denominado servidor, el back end de la aplicación administra la funcionalidad general de la aplicación web. Cuando el usuario interactúa con el front end, la interacción envía una solicitud al back end en formato HTTP. El backend procesa la solicitud y devuelve una respuesta.</p>
+    </div>
+    <div class="w3-third w3-center">
+     <img src="https://miro.medium.com/v2/resize:fit:1024/0*S0rWo-lYM3IWsjbH.png"/>
+     
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
+
